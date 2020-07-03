@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WpN-6N-TzP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sticky-note" translatesAutoresizingMaskIntoConstraints="NO" id="0Mc-vc-dGZ">
+                                <rect key="frame" x="62" y="138.5" width="290" height="448"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SND-Cy-zGA">
+                                <rect key="frame" x="153.5" y="596.5" width="107" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0Mc-vc-dGZ" firstAttribute="width" relation="greaterThanOrEqual" secondItem="WpN-6N-TzP" secondAttribute="width" multiplier="0.7" id="4G2-Z9-egA"/>
+                            <constraint firstItem="0Mc-vc-dGZ" firstAttribute="centerX" secondItem="4cv-ja-TLj" secondAttribute="centerX" id="JcW-8h-Xh0"/>
+                            <constraint firstItem="0Mc-vc-dGZ" firstAttribute="centerY" secondItem="4cv-ja-TLj" secondAttribute="centerY" multiplier="0.8" id="K68-ny-mlk"/>
+                            <constraint firstItem="SND-Cy-zGA" firstAttribute="firstBaseline" secondItem="0Mc-vc-dGZ" secondAttribute="baseline" constant="34" symbolType="layoutAnchor" id="hcM-O1-OKf"/>
+                            <constraint firstItem="SND-Cy-zGA" firstAttribute="centerX" secondItem="4cv-ja-TLj" secondAttribute="centerX" id="rvb-Dk-kqc"/>
+                            <constraint firstItem="0Mc-vc-dGZ" firstAttribute="height" relation="greaterThanOrEqual" secondItem="WpN-6N-TzP" secondAttribute="height" multiplier="0.5" id="sUr-RE-FdK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4cv-ja-TLj"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sticky-note" width="250" height="250"/>
+    </resources>
+</document>

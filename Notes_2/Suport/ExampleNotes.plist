@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Эпидемия гриппа</string>
+		<key>description</key>
+		<string>Министерство здравоохранения опубликовало данные о заболеваемость гриппом и ОРВИ в российских городах. По данным ведомства, эпидемический порог превышен на 96,6%, пишет «Российская газета».
+Ранее замминистра здравоохранения заявлял, что во всех лечебных учреждениях и аптеках есть необходимый запас противовирусных препаратов.  Однако, жителям необходимо самостоятельно позаботиться о профилактике: не посещать людные места и при первых признаках заболевания обращаться в лечебные учреждения.</string>
+		<key>important</key>
+		<integer>1</integer>
+		<key>color</key>
+		<dict>
+			<key>red</key>
+			<integer>170</integer>
+			<key>green</key>
+			<integer>239</integer>
+			<key>blue</key>
+			<integer>85</integer>
+		</dict>
+		<key>isNotification</key>
+		<false/>
+		<key>notification - 2</key>
+		<date>2020-06-08T08:05:29Z</date>
+		<key>favorite</key>
+		<false/>
+		<key>createDate</key>
+		<date>2020-02-08T09:07:03Z</date>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Купить продукты</string>
+		<key>description</key>
+		<string>1. Хлеб 1шт
+2. Молоко 10шт
+3. Манго 2шт
+4. Помидоры 6шт
+5. Огурцы 6шт
+6. Перец 3 шт
+7. Лук зеленый</string>
+		<key>important</key>
+		<integer>2</integer>
+		<key>color</key>
+		<dict>
+			<key>red</key>
+			<integer>239</integer>
+			<key>green</key>
+			<integer>89</integer>
+			<key>blue</key>
+			<integer>49</integer>
+		</dict>
+		<key>isNotification</key>
+		<true/>
+		<key>notification</key>
+		<date>2020-07-15T08:05:29Z</date>
+		<key>favorite</key>
+		<true/>
+		<key>createDate</key>
+		<date>2020-06-08T09:07:03Z</date>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Шоколадный тарт с соленой карамелью</string>
+		<key>description</key>
+		<string>Для теста:
+160 г муки
+30 г молотого миндаля
+30 г какао-порошка
+50 г сахара
+1/4 ч. л. соли
+110 г холодного сливочного­ масла
+1 ч. л. экстракта ванили
+1 яйцо
+1–2 ст. л. ледяной воды
+
+Для карамели:
+300 г сахара
+125 мл воды
+125 мл сливок жирностью­ 33%
+70 г сливочного масла
+1 ч. л. соли
+
+Для шоколадного ганаша:
+125 мл сливок жирностью­ 33%
+120 г горького шоколада­</string>
+		<key>important</key>
+		<integer>1</integer>
+		<key>color</key>
+		<dict>
+			<key>red</key>
+			<integer>170</integer>
+			<key>green</key>
+			<integer>239</integer>
+			<key>blue</key>
+			<integer>85</integer>
+		</dict>
+		<key>isNotification</key>
+		<false/>
+		<key>notification</key>
+		<date>2020-06-08T08:05:29Z</date>
+		<key>favorite</key>
+		<false/>
+		<key>createDate</key>
+		<date>2020-06-01T09:07:03Z</date>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>ТВОРОЖНЫЙ КЕКС С ЛИМОНОМ</string>
+		<key>description</key>
+		<string>Ингредиенты:
+● 250 г творога
+● 200 г муки
+● 170 г сахара
+● 20 г масла (примерно 1ст.л.)
+● 3 яйца
+● 1 лимон
+● 11⁄2 ч.л. соды</string>
+		<key>important</key>
+		<integer>1</integer>
+		<key>color</key>
+		<dict>
+			<key>red</key>
+			<integer>170</integer>
+			<key>green</key>
+			<integer>239</integer>
+			<key>blue</key>
+			<integer>85</integer>
+		</dict>
+		<key>isNotification</key>
+		<false/>
+		<key>notification</key>
+		<date>2020-06-08T08:05:29Z</date>
+		<key>favorite</key>
+		<true/>
+		<key>createDate</key>
+		<date>2020-01-08T09:07:03Z</date>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Стих</string>
+		<key>description</key>
+		<string>Мешать соединенью двух сердец
+Я не намерен. Может ли измена
+Любви безмерной положить конец?
+Любовь не знает убыли и тлена.
+Любовь - над бурей поднятый маяк,
+Не меркнущий во мраке и тумане.
+Любовь - звезда, которою моряк
+Определяет место в океане.
+Любовь - не кукла жалкая в руках
+У времени, стирающего розы
+На пламенных устах и на щеках,
+И не страшны ей времени угрозы.
+А если я не прав и лжет мой стих,
+То нет любви - и нет стихов моих!</string>
+		<key>important</key>
+		<integer>0</integer>
+		<key>color</key>
+		<dict>
+			<key>red</key>
+			<integer>255</integer>
+			<key>green</key>
+			<integer>236</integer>
+			<key>blue</key>
+			<integer>59</integer>
+		</dict>
+		<key>isNotification</key>
+		<false/>
+		<key>favorite</key>
+		<true/>
+		<key>createDate</key>
+		<date>2019-06-08T09:07:03Z</date>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Сходить погулять</string>
+		<key>description</key>
+		<string></string>
+		<key>important</key>
+		<integer>0</integer>
+		<key>color</key>
+		<dict>
+			<key>red</key>
+			<integer>255</integer>
+			<key>green</key>
+			<integer>236</integer>
+			<key>blue</key>
+			<integer>59</integer>
+		</dict>
+		<key>notification</key>
+		<date>2020-06-08T08:05:29Z</date>
+		<key>isNotification</key>
+		<false/>
+		<key>favorite</key>
+		<false/>
+		<key>createDate</key>
+		<date>2020-02-08T09:07:03Z</date>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Интересные места</string>
+		<key>description</key>
+		<string>Памятник лабораторной мыши, вяжущей нить ДНК
+Парк чудес Галилео
+Озеро с утками в академгородке
+Центральный сибирский ботанический сад
+ДЮЦ Планетарий
+Городской парк Бердская коса
+Лавочка-шпаргалка
+Скульптура Большой Ух</string>
+		<key>important</key>
+		<integer>2</integer>
+		<key>color</key>
+		<dict>
+			<key>red</key>
+			<integer>239</integer>
+			<key>green</key>
+			<integer>89</integer>
+			<key>blue</key>
+			<integer>49</integer>
+		</dict>
+		<key>isNotification</key>
+		<false/>
+		<key>favorite</key>
+		<false/>
+		<key>createDate</key>
+		<date>2020-06-06T09:07:03Z</date>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>...</string>
+		<key>description</key>
+		<string>А как весело все начиналось - гречку все покупали</string>
+		<key>important</key>
+		<integer>1</integer>
+		<key>isNotification</key>
+		<false/>
+		<key>color</key>
+		<dict>
+			<key>red</key>
+			<integer>170</integer>
+			<key>green</key>
+			<integer>239</integer>
+			<key>blue</key>
+			<integer>85</integer>
+		</dict>
+		<key>favorite</key>
+		<false/>
+		<key>createDate</key>
+		<date>2020-06-07T09:07:03Z</date>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>анекдот</string>
+		<key>description</key>
+		<string>У винни-пуха в голове перемолотый буратино.
+Мне трудно жить с этой мыслью.</string>
+		<key>important</key>
+		<integer>1</integer>
+		<key>isNotification</key>
+		<false/>
+		<key>color</key>
+		<dict>
+			<key>red</key>
+			<integer>170</integer>
+			<key>green</key>
+			<integer>239</integer>
+			<key>blue</key>
+			<integer>85</integer>
+		</dict>
+		<key>favorite</key>
+		<false/>
+		<key>createDate</key>
+		<date>2020-05-08T09:07:03Z</date>
+		<key>notification</key>
+		<date>2020-06-08T09:26:39Z</date>
+	</dict>
+</array>
+</plist>

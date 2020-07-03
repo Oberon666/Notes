@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoteView" customModule="Notes_2" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundView" destination="W09-ni-vJ0" id="rov-bz-MyP"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="Dq7-KU-q3e"/>
+                <outlet property="detailTextView" destination="IYQ-F0-Uh3" id="hW5-SL-RQu"/>
+                <outlet property="separatorView" destination="bth-tx-gxk" id="gDl-ac-U26"/>
+                <outlet property="titleTextView" destination="dFT-Pc-EZ4" id="ZGa-s7-uxv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="379" height="369"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W09-ni-vJ0" userLabel="NoteView">
+                    <rect key="frame" x="0.0" y="0.0" width="379" height="369"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Title" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dFT-Pc-EZ4">
+                            <rect key="frame" x="9" y="9" width="361" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="EX3-gX-pvo"/>
+                            </constraints>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textField>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bth-tx-gxk" userLabel="Separator">
+                            <rect key="frame" x="9" y="44" width="361" height="0.5"/>
+                            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="zMd-LB-UeC"/>
+                            </constraints>
+                        </view>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="Text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IYQ-F0-Uh3">
+                            <rect key="frame" x="9" y="49.5" width="361" height="310.5"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="X0V-H3-D6v"/>
+                            </constraints>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="bth-tx-gxk" secondAttribute="trailing" constant="9" id="0DK-Wv-fhv"/>
+                        <constraint firstItem="bth-tx-gxk" firstAttribute="top" secondItem="dFT-Pc-EZ4" secondAttribute="bottom" id="7HX-Ky-pee"/>
+                        <constraint firstItem="IYQ-F0-Uh3" firstAttribute="top" secondItem="bth-tx-gxk" secondAttribute="bottom" constant="5" id="Nfo-Iz-VBa"/>
+                        <constraint firstAttribute="trailing" secondItem="dFT-Pc-EZ4" secondAttribute="trailing" constant="9" id="Xs5-qw-H3t"/>
+                        <constraint firstItem="IYQ-F0-Uh3" firstAttribute="leading" secondItem="W09-ni-vJ0" secondAttribute="leading" constant="9" id="ZoR-JW-41a"/>
+                        <constraint firstAttribute="bottom" secondItem="IYQ-F0-Uh3" secondAttribute="bottom" constant="9" id="bHt-l9-n7e"/>
+                        <constraint firstItem="dFT-Pc-EZ4" firstAttribute="top" secondItem="W09-ni-vJ0" secondAttribute="top" constant="9" id="baD-SF-8Ym"/>
+                        <constraint firstItem="dFT-Pc-EZ4" firstAttribute="leading" secondItem="W09-ni-vJ0" secondAttribute="leading" constant="9" id="fWR-lp-a1x"/>
+                        <constraint firstItem="bth-tx-gxk" firstAttribute="leading" secondItem="W09-ni-vJ0" secondAttribute="leading" constant="9" id="ltT-Fo-XSX"/>
+                        <constraint firstAttribute="trailing" secondItem="IYQ-F0-Uh3" secondAttribute="trailing" constant="9" id="qy7-gk-U4u"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="W09-ni-vJ0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="CcO-cC-8Vl"/>
+                <constraint firstAttribute="bottom" secondItem="W09-ni-vJ0" secondAttribute="bottom" id="G64-T7-JAu"/>
+                <constraint firstItem="W09-ni-vJ0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="VNb-uE-czH"/>
+                <constraint firstAttribute="trailing" secondItem="W09-ni-vJ0" secondAttribute="trailing" id="aul-3T-9xI"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-283.33333333333337" y="-132.25446428571428"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ColorChooser" customModule="Notes_2" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="pUV-6O-94f"/>
+                <outlet property="imageColorPicker" destination="85g-TN-iyM" id="F0g-wz-7a6"/>
+                <outletCollection property="colorSquares" destination="V1c-OR-qu3" collectionClass="NSMutableArray" id="Crg-j9-hJG"/>
+                <outletCollection property="colorSquares" destination="WTV-fi-EuT" collectionClass="NSMutableArray" id="izi-lC-478"/>
+                <outletCollection property="colorSquares" destination="1cT-7L-7MC" collectionClass="NSMutableArray" id="eRH-jO-VLG"/>
+                <outletCollection property="colorSquares" destination="dGN-oI-X0e" collectionClass="NSMutableArray" id="gFp-l2-lNO"/>
+                <outletCollection property="colorSquares" destination="9gj-rP-AK5" collectionClass="NSMutableArray" id="7AE-Q4-Z2P"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="290" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1c-OR-qu3" customClass="SelectableColorButton" customModule="Notes_2" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="4G6-LA-Cq9"/>
+                        <constraint firstAttribute="width" constant="50" id="No4-JU-Saq"/>
+                    </constraints>
+                    <connections>
+                        <action selector="tapToColorButton:" destination="-1" eventType="touchUpInside" id="Wj4-4c-Vg4"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTV-fi-EuT" customClass="SelectableColorButton" customModule="Notes_2" customModuleProvider="target">
+                    <rect key="frame" x="60" y="0.0" width="50" height="50"/>
+                    <color key="backgroundColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="VZZ-8Z-fKL"/>
+                        <constraint firstAttribute="height" constant="50" id="ovM-Sl-1Dw"/>
+                    </constraints>
+                    <connections>
+                        <action selector="tapToColorButton:" destination="-1" eventType="touchUpInside" id="kwp-bg-1RV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cT-7L-7MC" customClass="SelectableColorButton" customModule="Notes_2" customModuleProvider="target">
+                    <rect key="frame" x="120" y="0.0" width="50" height="50"/>
+                    <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Shb-Hc-nl8"/>
+                        <constraint firstAttribute="width" constant="50" id="Ubm-sQ-aVN"/>
+                    </constraints>
+                    <connections>
+                        <action selector="tapToColorButton:" destination="-1" eventType="touchUpInside" id="R8V-Rv-ur3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGN-oI-X0e" customClass="SelectableColorButton" customModule="Notes_2" customModuleProvider="target">
+                    <rect key="frame" x="180" y="0.0" width="50" height="50"/>
+                    <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="eZY-GZ-FIL"/>
+                        <constraint firstAttribute="width" constant="50" id="sVr-M3-xgh"/>
+                    </constraints>
+                    <connections>
+                        <action selector="tapToColorButton:" destination="-1" eventType="touchUpInside" id="wAK-vc-jAu"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_drcolorpicker-colormap" translatesAutoresizingMaskIntoConstraints="NO" id="85g-TN-iyM">
+                    <rect key="frame" x="240" y="0.0" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="7fM-Qv-Qf9"/>
+                        <constraint firstAttribute="height" constant="50" id="gJI-LD-k8l"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gj-rP-AK5" customClass="SelectableColorButton" customModule="Notes_2" customModuleProvider="target">
+                    <rect key="frame" x="240" y="0.0" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="3R3-XW-ec7"/>
+                        <constraint firstAttribute="width" constant="50" id="aN3-Mj-Slv"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="tapToColorButton:" destination="-1" eventType="touchUpInside" id="ohh-bh-Rxi"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="1cT-7L-7MC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="0F1-gC-Ucl"/>
+                <constraint firstItem="V1c-OR-qu3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="2hm-fs-ReC"/>
+                <constraint firstItem="85g-TN-iyM" firstAttribute="top" secondItem="9gj-rP-AK5" secondAttribute="top" id="4W0-Ek-JWy"/>
+                <constraint firstItem="WTV-fi-EuT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="51j-4b-LFy"/>
+                <constraint firstItem="85g-TN-iyM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="7hi-rH-XU5"/>
+                <constraint firstItem="dGN-oI-X0e" firstAttribute="leading" secondItem="1cT-7L-7MC" secondAttribute="trailing" constant="10" id="BKe-67-6yi"/>
+                <constraint firstItem="dGN-oI-X0e" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="EEg-HU-4S4"/>
+                <constraint firstItem="V1c-OR-qu3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="KXT-h8-AKA"/>
+                <constraint firstAttribute="bottom" secondItem="V1c-OR-qu3" secondAttribute="bottom" id="PvU-6Z-vFh"/>
+                <constraint firstItem="WTV-fi-EuT" firstAttribute="leading" secondItem="V1c-OR-qu3" secondAttribute="trailing" constant="10" id="XpF-pH-Y7A"/>
+                <constraint firstItem="85g-TN-iyM" firstAttribute="leading" secondItem="dGN-oI-X0e" secondAttribute="trailing" constant="10" id="cFs-0P-pI1"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="85g-TN-iyM" secondAttribute="trailing" id="mX2-Tl-hFD"/>
+                <constraint firstItem="1cT-7L-7MC" firstAttribute="leading" secondItem="WTV-fi-EuT" secondAttribute="trailing" constant="10" id="rwa-dM-pQb"/>
+                <constraint firstItem="85g-TN-iyM" firstAttribute="leading" secondItem="9gj-rP-AK5" secondAttribute="leading" id="tHa-lr-2di"/>
+                <constraint firstItem="85g-TN-iyM" firstAttribute="trailing" secondItem="9gj-rP-AK5" secondAttribute="trailing" id="u6m-GT-4Av"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-4.3478260869565224" y="-177.45535714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_drcolorpicker-colormap" width="502" height="502"/>
+    </resources>
+</document>
